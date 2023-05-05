@@ -1,0 +1,86 @@
+.slide-content {
+    display: flex;
+    flex: 40% 60%;
+    gap: 30px;
+  
+    .slide-top {
+      h3 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        color: purple;
+      }
+  
+      p {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 30px;
+        color: gray;
+      }
+  
+      .link {
+        a {
+          padding: 10px 20px;
+          font-size: 20px;
+          font-weight: 600;
+          margin-bottom: 30px;
+          color: gray;
+          cursor: pointer;
+          border: 1px solid;
+          border-radius: 10px;
+  
+  
+          &:hover {
+            background-color: purple;
+            color: aliceblue;
+          }
+  
+        }
+      }
+    }
+  }
+
+  .reservation-box {
+    padding: 10px;
+    border: 1px solid;
+    text-align: center;
+    flex: 1 2;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    .heading {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #444;
+            margin-bottom: 20px;
+        }
+
+    }
+
+    button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        color: black;
+        padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+        background-color: gray;
+        color: #c1c1c1;
+      }
+    }
+}

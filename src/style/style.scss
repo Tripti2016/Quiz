@@ -1,0 +1,31 @@
+@import 'navBar';
+@import 'quiz';
+@import 'tab';
+@import 'fetch-api';
+@import 'slide';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+    .about-link {
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            font-size: 30px;
+            color: #979292;
+            font-weight: 600;
+            list-style: none;
+            padding: 5px 13px;
+            line-height: 80px;
+            list-style: none;
+        }
+    }
+    .main{
+        height: 100vh;
+          background-color: #d7cecebf;
+          padding: 20px;
+      }
